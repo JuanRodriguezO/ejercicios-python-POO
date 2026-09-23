@@ -13,6 +13,7 @@ class CuentaBancaria:
         else :
           self. saldo += monto
         return "se realizo con exito"
+    
     def retirar_monto(self, monto):
         if monto <= 0:
             return "no permitido"
